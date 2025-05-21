@@ -7,5 +7,5 @@ import java.util.List;
 public interface IProductService {
     ProductDto createProduct(ProductDto productDto);
 
-    List<ProductDto> getAll(Integer pageNumber, Integer pageSize);
+    List<ProductDto> getAll(java.lang.Integer pageNumber, java.lang.Integer pageSize);
 }
